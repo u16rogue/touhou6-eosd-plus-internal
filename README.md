@@ -21,7 +21,7 @@ Remaps Touhou 6 key binds internally by hooking **IDirectInputDevice8::GetDevice
 * The only way to change the remapped keybinds is by editing [key_remap_config.h](key_remap_config.h) and then recompiling.
 * All keys are defined in [dinput.h](include/dinput.h) which TH6's engine uses.
 
-## Technical stuff
+## Extra
 *Information is from v1.02*
 * Pointer to the device input can be found at `8B 15 ? ? ? ? 8B 02 8B 0D ? ? ? ? 51 FF 50 24 89 85` @ `東方紅魔郷.exe`
 
